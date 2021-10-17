@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertEquals;
 
-public class hamsters {
+public class GavaHamsters {
     private WebDriver driver;
 
     @BeforeMethod
@@ -39,7 +39,7 @@ public class hamsters {
     }
 
     @Test
-    public void Nadezhda_Dekhand() {
+    public void NadezhdaDekhandtest() {
         driver.get("https://gb.ru/");
 
         WebElement userPlan = driver.findElement(By.xpath("//div[contains(@class,'mn-header__left')]//a[text()='Мероприятия']"));
